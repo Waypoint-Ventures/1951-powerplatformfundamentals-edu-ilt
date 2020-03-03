@@ -22,7 +22,8 @@ Pay close attention and follow along as your teacher demonstrates how to create 
 | **Table** | tblCustomers | tblCustomers |
 | **Sort** | Ascending | Ascending |
 | **Show** | ✔ | ✔ |
-*Table 1: Query that lists the first and last name of all customers*
+
+>   *Table 1: Query that lists the first and last name of all customers*
 
 **Question 1 Results:**
 
@@ -33,7 +34,8 @@ Pay close attention and follow along as your teacher demonstrates how to create 
 | &nbsp; | &nbsp; |
 | &nbsp; | &nbsp; |
 | &nbsp; | &nbsp; |
-*Table 2: Results of query that lists the first and last name of all customers*
+
+>   *Table 2: Results of query that lists the first and last name of all customers*
 
 **Question 2:** *"How can I find the city and state of every customer in the database?"*
 
@@ -43,7 +45,8 @@ Pay close attention and follow along as your teacher demonstrates how to create 
 | **Table** | tblCustomers | tblCustomers |
 | **Sort** | | |
 | **Show** | ✔ | ✔ |
-*Table 3: Query that lists the city and state of all customers*
+
+>   *Table 3: Query that lists the city and state of all customers*
 
 **Question 2 Results:**
 
@@ -54,7 +57,8 @@ Pay close attention and follow along as your teacher demonstrates how to create 
 | &nbsp; | &nbsp; |
 | &nbsp; | &nbsp; |
 | &nbsp; | &nbsp; |
-*Table 4: Results of query that lists the city and state of all customers*
+
+>   *Table 4: Results of query that lists the city and state of all customers*
 
 ### Try-it: Create a basic query
 
@@ -75,14 +79,20 @@ You will need the following resources for this try-it:
 The following are the general tasks that you need to perform during this try-it:
 
 1.  Create a new query using the **Design View**. 
+
 1.  Add the **tblCustomers** table to the new query.
+
 1.	Create two query fields with the following settings:
+
     | | | |
     | --- | --- | --- |
     | **Field** | State | City |
     | **Table** | tblCustomers | tblCustomers |
     | **Sort** | Ascending | Ascending |
     | **Show** | ✔ | ✔ |
-    *Table 5: Select only city and state fields*
+    
+    >   *Table 5: Select only city and state fields*
+
 1.	**Run** the query.
+
 1.	Observe the results of the query. The query should return an alphabetical list of cities, listed by state (also alphabetically) in which our customers reside.
